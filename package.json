@@ -1,0 +1,39 @@
+{
+  "name": "node-email-verification",
+  "version": "0.0.1",
+  "description": "Simple node app to allow sending of email verifications",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:soboy2/node-email-verification.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "email",
+    "verification"
+  ],
+  "author": "Sho <sho.asod@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soboy2/node-email-verification/issues"
+  },
+  "homepage": "https://github.com/soboy2/node-email-verification",
+  "dependencies": {
+    "express": "^4.12.3",
+    "nodemailer": "^0.7.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0"
+  }
+}
